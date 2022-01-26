@@ -9,7 +9,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#" data-i18n="product-name"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -17,26 +17,22 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#" data-i18n="home"></span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#" data-i18n="settings"></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
+
+
                 <!-- I18N -->
                 <li class="nav-item dropdown my-auto mx-sm-0 mx-lg-auto">
-                    <a class="nav-link dropdown-toggle switch-locale" data-locale="ukr" href="#" id="navbarDropdown"
+                    <a class="nav-link dropdown-toggle switch-locale" data-locale="eng" href="#" id="navbarDropdown"
                         role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <span class="ukr-flag mr-1"></span><span data-i18n="ukrLocale"></span>
+                        <span class="ukr-flag mr-1"></span><span data-i18n="engLocale"></span>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="nav-link dropdown-item switch-locale" data-locale="eng" href="#">
-                            <span class="eng-flag mr-1"></span><span data-i18n="engLocale"></span>
+                        <a class="nav-link dropdown-item switch-locale" data-locale="ukr" href="#">
+                            <span class="eng-flag mr-1"></span><span data-i18n="ukrLocale"></span>
                         </a>
                         <a class="nav-link dropdown-item switch-locale" data-locale="rus" href="#">
                             <span class="rus-flag mr-1"></span><span data-i18n="rusLocale"></span>
@@ -44,6 +40,8 @@
                     </div>
                 </li>
                 <!--  -->
+
+
             </ul>
         </div>
     </nav>

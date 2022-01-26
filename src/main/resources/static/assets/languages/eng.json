@@ -2,5 +2,8 @@
   "engLocale" : "ENG",
   "rusLocale" : "RU",
   "ukrLocale" : "УКР",
-  "title" : "Home"
+  "title" : "Monitoring App",
+  "product-name" : "OLX parser",
+  "home" : "Home",
+  "settings" : "Settings"
 }
