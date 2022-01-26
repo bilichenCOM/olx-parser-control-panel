@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: IntelliJ IDEA
+Built-By: bilic
+Build-Jdk: 1.8.0_121
+Implementation-Title: olx-parser-control-panel
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.bilichenko
+Main-Class: ${start-class}
+
